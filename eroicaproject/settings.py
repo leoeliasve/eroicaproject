@@ -25,7 +25,7 @@ SECRET_KEY = '@*4s5@w9z2yp3y8)1@he9p@$=cwbpy0++%vfn!+0urdm=oqwi8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://pobanesco.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
