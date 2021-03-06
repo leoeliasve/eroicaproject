@@ -1,0 +1,1 @@
+web: gunicorn eroicaproject.wsgi --log file--
