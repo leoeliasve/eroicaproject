@@ -25,7 +25,7 @@ SECRET_KEY = '@*4s5@w9z2yp3y8)1@he9p@$=cwbpy0++%vfn!+0urdm=oqwi8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://banescop.herokuapp.com','localhost']
 
 
 # Application definition
@@ -77,13 +77,27 @@ WSGI_APPLICATION = 'eroicaproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dbbanesco',
-        'USER': 'postgres',
-        'PASSWORD': 'watercolor',
-        'HOST': '127.0.0.1',
+        'NAME': 'd6eba9s68189ip',
+        'USER': 'fgigozufmidtou',
+        'PASSWORD': '53b092830bd242fb886d38626e0b39bd42096be05a587a5b1642eaabba477202',
+        'HOST': 'ec2-54-163-140-104.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
+
+
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#        'NAME': 'dbbanesco',
+#        'USER': 'postgres',
+#        'PASSWORD': 'watercolor',
+#        'HOST': '127.0.0.1',
+#        'PORT': '5432',
+#    }
+#}
+
+
 
 
 # Password validation
